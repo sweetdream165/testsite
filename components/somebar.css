@@ -1,0 +1,27 @@
+.bar{
+    background-color: darkgrey;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    align-items: center;
+    border: solid 1px black;
+}
+
+.bar a{
+    background-color: white;
+    height: 100%;
+    width: 50px;
+    text-align: center;
+
+}
+
+.bar a:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+
+.bar div>a{
+    padding: 10px;
+}

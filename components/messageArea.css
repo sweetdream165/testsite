@@ -1,0 +1,19 @@
+.mArea{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.mArea a{
+    background-color: darkslategrey;
+    color: white;
+    border-radius: 0 0 10px 10px;
+    transition: .1s ease-in-out;
+}
+
+.mArea a:hover{
+    background-color: slategray;
+    color: black;
+    cursor: pointer;
+    user-select: none;
+}

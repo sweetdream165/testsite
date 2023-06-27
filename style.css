@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.components-holder{
+    display: flex;
+    margin-top: 100px;
+}
+
+.components-holder>*{
+    margin-left: 10px;
+}
